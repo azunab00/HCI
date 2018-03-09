@@ -1,0 +1,228 @@
+/*mobile phone design*/
+
+.modal_exit{
+    text-align: center;
+    width: 5em;
+    height: 5em;
+    margin-left: 38em;
+    border: solid;
+    padding: 0.5em;
+    border-width: thin;
+    border-radius: 3px;
+    box-shadow: 2px 2px 7px grey;
+
+
+}
+.modal_exit:hover{
+    cursor: pointer;
+}
+.picture{
+    width: 21.5em;
+    margin: 2em auto 2em auto;
+    height: 27em;
+}
+
+.upper_content{
+    display: flex;
+    flex-direction: column;
+}
+.upper_content p{
+    font-size: 2.3em;
+    padding: 1em;
+    text-align: justify;
+}
+.lower_content{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-size: 2.3em;
+}
+.lower_content button{
+    height: 5em;
+    width: 10em;
+    background: #865656;
+    color: white;
+    font-size: 1em;
+    margin-top: 5.5em;
+    margin: 2em auto;
+}
+.lower_content button:hover{
+    cursor: pointer;
+}
+.lower_content div{
+    border: solid;
+    border-width: thin;
+    border-radius: 5px;
+    padding: 0 1em;
+    border-color: gainsboro;
+    margin: 1em;
+}
+.lower_content a{
+    text-decoration: none;
+}
+
+.fa.fa-times{
+    margin-top: 0.2em;
+    font-size: 3.5em;
+    color: gray;
+}
+.search_input{
+     max-width: 40em;
+     margin: 0 0 2em auto;
+     font-size: 2em;
+     width: 25em;
+     display: flex;
+     margin-top: 3em;
+ }
+ 
+ 
+ .books_container{
+     display: flex;
+     justify-content: center;
+     flex-wrap: wrap;
+     margin-bottom: 5em;
+ }
+ .books_container:after{
+    flex: 0 1 37em;
+    content: '';
+}
+ .book{
+    height: 52em;
+    max-width: 30em;
+    margin: 1.2em;
+    box-shadow: 0px 10px 20px #888888;
+    transition: all .5s;
+    margin-bottom: 5em;
+ }
+
+ .book_image_container{
+    height: 32em;
+    width: 100%;
+    background-size: 100% 100%;
+ }
+ .info_container{
+     height: 10em;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-between;
+ }
+ .book_title{
+     margin: 0;
+     padding: 0.4em;
+     font-size: 2.5em;
+     margin-left: 0.2em;
+     font-weight: 900;
+     color: brown;
+ }
+ .stars_container{
+     margin-left: 1em;
+     margin-top: 0.2em;
+     font-size: 3.5em;
+ }
+ .fa-star, .fa-star-o{
+     color: #d0d42d;
+     font-size: 2.5em;
+ }
+ .fa.fa-search{
+    margin: 1.42em auto 2.5em 0;
+    font-size: 4.2em;
+
+    border: solid;
+    padding: 0.3em;
+    border-color: gray;
+    border-width: 1.4px;
+    color: #5f5656;
+    background-color: #bfb1b1;
+ }
+ .fa.fa-search:hover{
+     cursor: pointer;
+ }
+ .search_input_container{
+    display: flex;
+}
+
+ 
+ /*desktop design*/
+ @media only screen and (min-device-width: 768px) {
+
+    .book:hover{
+        cursor: pointer;
+        width: 13.5em;
+        height: 24.5em;
+        transition: all .5s;
+        margin-bottom: -1em;
+        margin: -0.45em;
+        
+     }
+    .fa.fa-search{
+        margin: 2.5em auto 1.5em 0;
+        font-size: 2.4em;
+    }
+    .fa.fa-times{
+        font-size: 1.5em;
+        margin-top: 0;
+    }
+    .stars_container{
+        font-size: 1.5em;
+    }
+    .search_input{
+        width: 27em;
+        margin: 3em 0 1.5em auto;
+    }
+    .search_input::placeholder{
+        font-size: 0.8em;
+        color: #B2B2B2;
+    }
+    .book{
+        height: 24em;
+        width: 10em;
+        margin-bottom: 0;
+    }
+    .book_image_container{
+        height: 15em;
+    }
+    .info_container{
+        height: 7em;
+        justify-content: space-between;
+    }
+    .book_title{
+        font-size: 1em;
+        width: 9.3em;
+    }
+    .stars_container{
+        margin-left: 0.7em;
+        margin-top: 0.5em;
+    }
+    .fa-star, .fa-star-o {
+        font-size: 1em;
+    }
+    .picture{
+        width: 61.5em;
+        margin: 2.1em 2em 2em 1em;
+        height: 15em;
+    }
+    .upper_content p{
+        font-size: 1em;
+    }
+    .upper_content{
+        display: flex;
+        justify-content: space-between;
+        flex-direction: row;
+    }
+    .lower_content{
+        display: flex;
+        justify-content: space-between;
+        font-size: 1em;
+        flex-direction: row;
+    }
+    .lower_content button{
+    
+        margin: 5.6em 1em 0 0;
+    }
+    .modal_exit{
+        width: 1.5em;
+        height: 1.5em;
+        margin-left: 41.5em;
+    }
+ 
+ }    

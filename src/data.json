@@ -1,0 +1,472 @@
+{
+    
+    "account_data":{
+        "username":"fesb",
+        "password": "sha1$02b2add4$1$bfdd1ae436338b68338cf96ace92a6ba0deffd63"
+    },
+
+    "header_content": [
+        {   "naziv":"Početna",
+            "link":"/"
+        },
+        {   "naziv":"Novosti",
+            "link":"/news"
+        },
+        {   "naziv":"Knjižnice",
+            "link":"/libraries"
+        },
+        {   "naziv":"Katalog",
+            "link":"/booksearch"
+        },
+        {   "naziv":"Moje stanje",
+            "link":"/login"
+    
+    }],
+
+    
+    "title_separator_content":{
+        "news": "Novosti",
+        "libraries": "Knjižnice",
+        "book_search": "Katalog",
+        "login": "Prijava",
+        "mybooks": "Moje stanje"
+    },
+
+    "homepage_content": {
+        "naslov" : "MOJE KNJIŽNICE",
+        "podnaslov": "Moje knjižnice aplikacija",
+        "lista": [
+            "Pregled knjižnica na području Splita, Solina, Kaštela i Trogira.",
+            "Jednostavno pretraživanje knjiga po naslovu, žanru, autoru i knjižnicama.",
+            "Provjera dostupnosti tražene knjige u prodaji ili u knjižnici.",
+            "Registracija i uvid u vlastito stanje posuđenih knjiga i datuma do kojeg ih treba vratiti."
+        ],
+        "knjiznice":[
+            {
+                "kontejner": "GKMM",
+                "naslov": "Gradske knjižnice Marka Marulića u Splitu",
+                "opis": "Izvorišta današnje Gradske knjižnice Marka Marulića mnogobrojne su splitske knjižnice koje su nastajale tijekom tisućljeća. U mreži knjižnica Marko Marulić nalaze se knjižnice: ",
+                "mreza": "Središnja knjižnica, knjižnica Bol-Plokite, knjižnica Grohote, knjižnica Meje, knjižnica Podstrana, knjižnica Ravne njive, knjižnica Spinut, knjižnica Žrnovnica, knjižnica Trstenik.",
+                "slika": "marko_marulic.jpg"
+
+            },
+            
+            {
+                "kontejner": "GKS",
+                "naslov": "Gradske knjižnice u Solinu",
+                "opis": "Dobro i stručno vođena, današnja Gradska knjižnica Solin suvremeno je i moderno opremljena narodna knjižnica koja kroz mrežu svojih knjižničnih ogranaka olakšava korisnicima put do knjige, informacija i izvora znanja. Gradska knjižnica Solin obuhvaća nekoliko knjižnica:",
+                "mreza": "Središnja knjižnica, Teatrin, Sveti Kajo, Mravince - Kučine.",
+                "slika": "solin_knjiznice.jpg"
+            },
+           
+            {
+                "kontejner": "GKK",
+                "naslov": "Gradske knjižnice u Kaštelima",
+                "opis": "Gradska knjižnica Kaštela raspolaže sa fondom od oko 40 000 svezaka knjižne građe namijenjene odraslima i djeci. Gradske knjižnice nalaze se u sljedećim Kaštelima:",
+                "mreza": "Kaštel Sućurac, Kaštel Gomilica, Kaštel Kambelovac, Kaštel Lukšić, Kaštel Stari, Kaštel Novi",
+                "slika": "kastela_knjiznice.jpg"
+            },
+            
+            {
+                "kontejner": "GKT",
+                "naslov": "Gradska knjižnica u Trogiru",
+                "opis": "Na svoju 135-u obljetnicu osnutka Gradska knjižnica Trogir je preselila u palaču  Lucić. Riječ je o zdanju koje je okarakterizirano kao spomenik nulte kategorije, kojemu su restauratori brižno pokušali vratiti prijašnji sjaj renesansnoga zdanja. Osim što je riječ o zdanju velike kulturno- povijesne vrijednosti, vrijednost i značaj joj daje i činjenica što se u toj palači rodio glasoviti hrvatski povjesničar Ivan Lucius – Lucić.",
+                "mreza": "",
+                "slika": "trogir_knjiznica.jpg"
+            }
+        ]
+       
+    },
+
+
+    "news_content":{
+        "naslov": "Novosti",
+        "kartice": [
+        {
+            "naslov": "Predstavljanje “knjige “Villa Kufer” Tonke Alujević",
+            "botun": "Više",
+            "opis": "Predstavljanje najnovije knjige autorice Tonke Alujević “Villa Kufer” održat će u organizaciji Gradske knjižnice Kaštela u utorak 07. veljače u 19 sati u Muzejskom prostoru Podvorje u Kaštel Sućurcu.",
+            "slika": "villa-kufer.jpg",
+            "datum": "Utorak 07. veljače 2018.",
+            "sat": "19:00",
+            "lokacija": "Knjižnica Kaštel Sućurac"
+        },
+       
+        {
+            "naslov": "Računalna radionica za umirovljenike",
+            "botun": "Više",
+            "opis": "Cilj radionice je upoznati korisnike s osnovama rada na računalu, osposobiti ih za samostalno pretraživanje interneta te ih naučiti korištenju programa Microsoft Office Word. Radionicu vode volonterke Udruge MI. Informacije i upisi na telefon 021 685 063.",
+            "slika": "radionica.jpg",
+            "datum": "Srijedom",
+            "sat": "18:00 - 19:00",
+            "lokacija": "Knjižnica Meje, Split"
+        },
+        {
+            "naslov": "Književna večer s Dunjom Kalilić",
+            "botun": "Više",
+            "opis": "Pozivamo vas na književnu večer s Dunjom Kalilić, Trogir u meni“ povodom mjeseca hrvatske knjige i dana grada Trogira. Tekstove čita glumica HNK Split Andrijana Vicković, glazbena pratnja polaznici Glazbene škole Josipa Hatzea",
+            "slika": "dunja.jpg",
+            "datum": "Utorak 07.01.2018.",
+            "sat": "17:00",
+            "lokacija": "Knjižnica Trogir"
+        },
+        {
+            "naslov": "Izložba slika i nakita 'Dalmatinski botun'",
+            "botun": "Više",
+            "opis": "Cjelokupan asortiman dolazi kao spoj dalmatinske tradicije uz dašak modernog štiha, a nakit je izrađen od srebra, alpake i poludragog kamenja kojeg je dizajnirala Antonela Tomić rođena u Splitu 1976. god.",
+            "slika": "nakit.jpg",
+            "datum": "Ponedjeljak 04.12.2017.",
+            "sat": "18:00",
+            "lokacija": "Knjižnica Bol-Plokite, Split"
+        },
+        {
+            "naslov": "Kreativna radionica “Lanterne” Kristine Uvodić",
+            "botun": "Više",
+            "opis": "Poziv školarcima da dođu na kreativnu radionicu majstorice Kristine Uvodić na kojoj će se ukrašavati i oslikavati staklene teglice. Svatko mora sa sobom ponijeti jednu čistu i bez etikete staklenku. Veselimo se zajedničkom predblagdanskom druženju!",
+            "slika": "kristina.jpg",
+            "datum": "Subota 09.12.2017.",
+            "sat": "10:30 - 12:00",
+            "lokacija": "Središnja knjižnica, Split"
+            }]
+    },
+
+    "libraries_content": {
+        "adresa": "Adresa: ",
+        "kontakt": "Kontakt: ",
+        "email": "e-mail: ",
+        "radnovr": "Radno vrijeme: ",
+
+        "kastela":{
+            "naslov": "Kaštela",
+            "opis": "Upisom u knjižnicu građanin plaća članarinu za jednu godinu. Prilikom upisa član Knjižnice dobiva člansku iskaznicu koja je neprenosiva. Upisom u jedan odjel član ostvaruje pravo korištenja građe u svim sastavnim djelovima Knjižnice uz predočenje iskaznice.",
+            
+            "lista_kastela": [
+                {
+                    "ime": "Kaštel Sućurac",
+                    "sadrzaj_adr": "Trg palih za domovinu 1",          
+                    "sadrzaj_kont": "021 226 001",        
+                    "sadrzaj_em": "gkksucurac@gmail.com",
+                    "sadrzaj_radn": "pon/uto/sri/čet/pet: 07:30 – 19:30",
+                    "sadrzaj_radn_novired": "sub: 08:00 – 12:00 (1. i 4. u mjesecu)",
+                    "slika": "sućurac.jpg",
+                    "html": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.868423614638!2d16.424317914717403!3d43.54678456732468!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355c32fac2b011%3A0x98b4b6925c09c611!2sTrg+palih+za+domovinu+1%2C+21212%2C+Ka%C5%A1tel+Su%C4%87urac!5e0!3m2!1shr!2shr!4v1512770803514"
+                },
+    
+               {
+                    "ime": "Kaštel Gomilica",
+                    "sadrzaj_adr": "Dr. Franje Tuđmana 52",          
+                    "sadrzaj_kont": "021 223 108",        
+                    "sadrzaj_em": "gkkgomilica@gmail.com",
+                    "sadrzaj_radn": "pon/uto/sri/čet/pet: 07:30 – 19:30",
+                    "sadrzaj_radn_novired": "sub: 08:00 – 12:00 (2. i 3. u mjesecu)",
+                    "slika": "gomilica.jpg",
+                    "html": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7500.103403741259!2d16.392889289409673!3d43.55060180616634!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355dff206d0743%3A0x3e6eeef6bae43074!2sGRADSKA+KNJI%C5%BDNICA+KA%C5%A0TELA!5e0!3m2!1shr!2shr!4v1512849885307"
+                },
+    
+               {
+                    "ime": "Kaštel Kambelovac",
+                    "sadrzaj_adr": "Brce 23",          
+                    "sadrzaj_kont": "021 220 295",        
+                    "sadrzaj_em": "gkkambelovac@gmail.com",
+                    "sadrzaj_radn": "pon/uto: 13:00 – 19:30, sri/čet/pet: 07:30 – 14:30",
+                    "sadrzaj_radn_novired": "sub: 08:00 – 12:00 (4. u mjesecu)",
+                    "slika": "kambelovac.jpg",
+                    "html": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.7715450907535!2d16.38329481460534!3d43.54880387912497!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355d024c2d498b%3A0x20b33707c1948ea0!2sUl.+Drage+Britvi%C4%87a+23%2C+21214%2C+Ka%C5%A1tel+Kambelovac!5e0!3m2!1shr!2shr!4v1512849587610"
+                },
+    
+                {
+                    "ime": "Kaštel Lukšić",
+                    "sadrzaj_adr": "Brce 1",          
+                    "sadrzaj_kont": "021 228 622",        
+                    "sadrzaj_em": "gkkluksic@gmail.com",
+                    "sadrzaj_radn": "pon/uto: 13:00 – 19:30, sri/čet/pet: 07:30 – 14:30",
+                    "sadrzaj_radn_novired": "sub: 08:00 – 12:00 (3. u mjesecu)",
+                    "slika": "luksic.jpg",
+                    "html": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.772264744146!2d16.381889114605297!3d43.54878887912507!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x13355d03031d0d17%3A0xd2026ca0a92f05e4!2sUl.+Drage+Britvi%C4%87a+1%2C+21214%2C+Ka%C5%A1tel+Kambelovac!5e0!3m2!1shr!2shr!4v1512849641499"
+                },
+    
+               {
+                    "ime": "Kaštel Stari",
+                    "sadrzaj_adr": "Put banovine b",          
+                    "sadrzaj_kont": "021 230 172",        
+                    "sadrzaj_em": "gkkstari@gmail.com",
+                    "sadrzaj_radn": "pon/uto/sri/čet/pet: 07:30 – 19:30",
+                    "sadrzaj_radn_novired": "sub: 08:00 – 12:00 (3. i 4. u mjesecu)",
+                    "slika": "stari.jpg",
+                    "html": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4208.887533691939!2d16.343511325639952!3d43.5563777390268!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133542d5535588fd%3A0xfc86b2637e4678b2!2sPut+Banovine%2C+21216%2C+Ka%C5%A1tel+Stari!5e0!3m2!1shr!2shr!4v1512849727452"
+                },
+    
+               {
+                    "ime": "Kaštel Novi",
+                    "sadrzaj_adr": "Brce 3",          
+                    "sadrzaj_kont": "021 230 833",        
+                    "sadrzaj_em": "gkknovi@gmail.com",
+                    "sadrzaj_radn": "pon/uto/sri/čet/pet: 07:30 – 19:30",
+                    "sadrzaj_radn_novired": "sub: 08:00 – 12:00 (1. i 2. u mjesecu)",
+                    "slika": "novi.jpg",
+                    "html": "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2891.78525205507!2d16.336585114605267!3d43.54851817912493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x133542d1df73e3c5%3A0xda991e84ebdc06d5!2sBrce+ul.+3%2C+21216%2C+Ka%C5%A1tel+Novi!5e0!3m2!1shr!2shr!4v1512849767076"
+                }
+            ]
+            
+           
+        },
+
+        "general_info":{
+            "clanarina":[
+                "Članarina",
+                "90,00 kn – godišnja članarina / pojedinačni upis",
+                "10,00 kn – ostali članovi uže obitelji (djeca) pri upisivanju u Obiteljsko članstvo",
+                "45,00 kn – grupni upis (istovremeni upis 10 i više osoba)",
+                "45,00 kn – upis u Čitaonicu",
+                "20,00 kn – upis u igraonicu",
+                "00,00 kn – djeca od 0 – 3 godine (posudba slikovnica)",
+                "00,00 kn – štićenici Doma Miljenko i Dobrila",
+                "00,00 kn – djeca do 18 godina, uz potvrdu Centra za socijalnu skrb",
+                "30,00 kn – sezonska članarina za turiste",
+                "5,00 kn – rezervacija po jedinici građe"
+            ],
+
+            "uvjeti_posudbe":[
+                "Uvjeti posudbe",
+                "Odjednom se mogu posuditi najviše dva naslova i 1CD/DVD",
+                "Rok posudbe je 21 dan za knjige, a za CD/DVD 5 dana",
+                "Knjige iz posebnih zbirki koriste se po posebnim uvjetima",
+                "MEĐUKNJIŽNIČNA POSUDBA = 30 kn",
+                "Zakasnina za knjige 0,50kn / dan po knjizi. Zakasnina za CD/DVD 5,00 kn / dan po CD/DVD",
+                "Besplatan pristup internetu za članove"
+            ],
+
+            "tablica":[
+                ["Usluga",
+                "Cijena za članove",
+                "Cijena za nečlanove"],
+
+                ["Korištenje Microsoft Office paketa",
+                "besplatno",
+                "5 kn po satu"],
+
+                ["Internet 1,00h",
+                "8 kn",
+                "13 kn"],
+
+                ["Internet od 30min – 1h",
+                "6 kn",
+                "10 kn"],
+
+                ["Internet od 15 – 30 min",
+                "4 kn",
+                "8 kn"],
+
+                ["Internet do 15 min",
+                "2 kn",
+                "5 kn"],
+
+                ["Printanje crno-bijelo",
+                "1 kn/stranici",
+                "1 kn/stranici"],
+
+                ["Printanje u boji",
+                "3 kn/stranici",
+                "3 kn/stranici"]
+                
+
+
+                
+                
+            ]
+
+        }
+    },
+
+    "booksearch_content":[
+        {  "naslov":"Gospođa Bovary - Gustave Flaubert",
+           "slika": "gospodja_bovary.jpg", 
+           "broj_stranica": "Broj stranica: 524",
+           "žanr":"Žanr: Realizam",
+           "knjiznice": [
+               "knjižnica Bol-Plokite",
+               "središnja knjižnica Solin",
+               "knjižnica Trogir"
+           ],
+           "prodaja":[
+                {"text":"eBay", "link":"https://www.ebay.com/"},
+               {"text":"Tisak", "link": "http://tisakmedia.hr/Tags/Knjige.html?q=bmd0XDMsdGFnXDM2"},
+               {"text":"libri.hr", "link":"https://libri.hr/"}
+           ],
+           "botun": "Obavijesti me o dostupnosti",
+           "ocjena":"3",
+           "sadržaj": "Središe romana obuhvaća lik Emme Bovary, ali francuski književnik Gustave Flaubert u cijelom romanu stavlja naglasak na kritiku prema francuskoj provinciji u 19. stoljeću. Tema romana su brak i preljub te je tema pronađena i u stvarnom životu. Roman je podijeljen na tri dijela međusobno odijeljena krizama kroz koje je prolazio glavni lik. Prvi dio nudi radnju koja je prethodila braku Emme i Charlesa. Nakon toga slijedi opis jednoličnog bračnog života zbog kojeg je Emma bila sve nesretnija."
+
+
+        },
+        {   "naslov":"Zločin i kazna - Fjodor Mihajlovič Dostojevski",
+            "slika":"zlocin_i_kazna.jpg", 
+            "broj_stranica": "Broj stranica: 480",
+            "žanr":"Žanr: Filozofska fikcija, Psihološka fikcija",
+            "knjiznice": [
+                "knjižnice u Kaštelima",
+                "središnja knjižnica Marka Marulića, Split",
+                "knjižnica Trogir"
+            ],
+            "prodaja":[
+                {"text":"bazzar.hr", "link": "https://bazzar.hr/knjizara/"},
+                {"text":"Tisak", "link": "http://tisakmedia.hr/Tags/Knjige.html?q=bmd0XDMsdGFnXDM2"},
+                {"text":"libri.hr", "link":"https://libri.hr/"}
+            ],
+            "botun": "Obavijesti me o dostupnosti",
+            "ocjena":"4",
+            "sadržaj": "“Zločin i kazna” je najpoznatiji i najčitaniji roman F. M. Dostojevskog kojim je stekao svoju slavu. Dostojevski u romanu Zločin i kazna dijeli temu grijeha i iskupljenja.  Dostojevski priča o siromašnom studentu Raskoljnjikovu koji ubija staricu, lihvaricu Aljonu Ivanovnu i njezinu sestru Lizavetu kako bi postigao viši cilj i oslobodio ljude od nje i njezinog iskorištavanja tuđe nesreće."
+        },
+        {   "naslov":"20 tisuća milja pod morem - Jules Verne",
+            "slika":"20_milja.jpg", 
+            "broj_stranica": "Broj stranica: 332",
+            "žanr": "Žanr: Znanstvena fantastika, drama",
+            "knjiznice": [
+                "knjižnica Kaštel Kambelovac",
+                "središnja knjižnica Marka Marulića, Split",
+                "knjižnica Kaštel Novi"
+            ],
+            "prodaja":[
+                {"text":"bazzar.hr", "link": "https://bazzar.hr/knjizara/"},
+                {"text":"libri.hr", "link":"https://libri.hr/"}
+            ],
+            "botun": "Obavijesti me o dostupnosti",
+            "ocjena":"5",
+            "sadržaj":"“20.000 milja ispod mora” jedan je od najpoznatijih romana Julesa Verna te jedan od najznačajnijih romana za djecu i mlade svjetske književnosti. Napisan je 1869. godine, a osim po svojoj radnji i općenitim odlikama znanstveno-fantastičnog romana, značajna je zbog piščeve vizije podmornice s ljudskom posadom, koja je u vrijeme nastanka romana bila čista znanstvena fantastika, a danas je i dio svakodnevice."
+        },
+        {   "naslov":"Mysterious island - Jules Verne",
+            "slika": "mysterious.jpg", 
+            "broj_stranica": "Broj stranica: 543",
+            "žanr": "Žanr: Pustolovna fikcija",
+            "knjiznice": [
+                "knjižnica Kaštel Lukšić",
+                "središnja knjižnica Marka Marulića, Split",
+                "knjižnica Ravne njive",
+                "knjižnica Spinut"
+            ],
+            "prodaja":[
+                {"text":"bazzar.hr", "link": "https://bazzar.hr/knjizara/"},
+                {"text":"libri.hr", "link":"https://libri.hr/"},
+                {"text":"Tisak", "link": "http://tisakmedia.hr/Tags/Knjige.html?q=bmd0XDMsdGFnXDM2"},
+                {"text":"eBay", "link":"https://www.ebay.com/"}
+            ],
+            "botun": "Obavijesti me o dostupnosti",
+            "ocjena":"5",
+            "sadržaj":"The plot focuses on the adventures of five Americans on an uncharted island in the South Pacific. During the American Civil War, five northern prisoners of war decide to escape, during the siege of Richmond, Virginia, by hijacking a balloon. After flying in a great storm for several days, the group crash-lands on a cliff-bound, volcanic, unknown island."
+        },
+        {   "naslov":"Ana Karenjina - Lav Nikolajevič Tolstoj",
+            "slika": "ana.jpg", 
+            "broj_stranica": "Broj stranica: 832",
+            "žanr": "Žanr: Realizam",
+            "knjiznice": [
+                "knjižnica Kaštel Lukšić",
+                "središnja knjižnica Marka Marulića, Split",
+                "knjižnica Ravne njive",
+                "knjižnica Spinut"
+            ],
+            "prodaja":[
+                {"text":"bazzar.hr", "link": "https://bazzar.hr/knjizara/"},
+                {"text":"libri.hr", "link":"https://libri.hr/"},
+                {"text":"Tisak", "link": "http://tisakmedia.hr/Tags/Knjige.html?q=bmd0XDMsdGFnXDM2"},
+                {"text":"eBay", "link":"https://www.ebay.com/"}
+            ],
+            "botun": "Obavijesti me o dostupnosti",
+            "ocjena":"3",
+            "sadržaj":"Ana Karenjina je roman sa suvremenom tematikom u kojoj je središnja tema preljub glavnog lika Ane, a zbog čega biva odbačena od strane društva da bi na kraju doživjela tragičan kraj. Paralelno s pričom o destruktivnoj ljubavi Ane i Vronskoga, odvija se još jedna ljubavna priča između Levina i Kiti, izgrađena na nesebičnoj ljubavi."
+        },
+        {   "naslov":"Don Quijote - Miguel de Cervantes",
+            "slika": "kihot.jpg", 
+            "broj_stranica": "Žanr: Broj stranica: 159",
+            "žanr": "Roman",
+            "knjiznice": [
+                "knjižnica Kaštel Lukšić",
+                "knjižnica Trogir",
+                "knjižnica Spinut"
+            ],
+            "prodaja":[
+                {"text":"libri.hr", "link":"https://libri.hr/"},
+                {"text":"Tisak", "link": "http://tisakmedia.hr/Tags/Knjige.html?q=bmd0XDMsdGFnXDM2"}
+            ],
+            "botun": "Obavijesti me o dostupnosti",
+            "ocjena":"1",
+            "sadržaj":"Roman je prvenstveno zamišljen kao parodija na račun tada vrlo popularnih viteških romana, ali je kasnije postao jedan od najoriginalnijih romana u svjetskoj književnosti. Zbog svega toga smatra se najboljim romanom španjolskog Zlatnog doba. Roman govori o pedesetogodišnjem muškarcu, španjolskom plemiću, koji je živio u malom i dosadnom gradiću. Jedinu zabavu pronalazio bi u čitanju viteških romana. S vremenom, plemić je postao zaluđen njima, toliko da je umislio da je i sam vitez. Zato si je kupio staro viteško odijelo i mač, starog konja i krenuo u pustolovinu."
+        },
+        {   "naslov":"Romeo i Juija - William Shakespeare",
+            "slika": "romeo.jpg", 
+            "broj_stranica": "Broj stranica: 243",
+            "žanr": "Žanr: Tragedija, romansa",
+            "knjiznice": [
+                "knjižnica Kaštel Lukšić",
+                "knjižnica Trogir",
+                "knjižnica Spinut",
+                "knjižnica Kaštel Stari"
+            ],
+            "prodaja":[
+                {"text":"libri.hr", "link":"https://libri.hr/"},
+                {"text":"Tisak", "link": "http://tisakmedia.hr/Tags/Knjige.html?q=bmd0XDMsdGFnXDM2"},
+                {"text":"bazzar.hr", "link": "https://bazzar.hr/knjizara/"}
+            ],
+            "botun": "Obavijesti me o dostupnosti",
+            "ocjena":"5",
+            "sadržaj": "Tragedija “Romeo i Julija” jedno je od najpoznatijih djela slavnog engleskog pisca Williama Shakespearea te jedno od najpoznatijih ljubavnih tragedija uopće. Tragedija govori o dvoje mladih ljudi koji se zaljubljuju jedno u drugo, unatoč tome što potječu iz dvaju suparničkih obitelji, među kojima vlada mržnja i rivalstvo."
+        }
+
+        
+    ],
+
+    "login_content":{
+        "opis": "Povjerite stanje posuđenih knjiga",
+        "zaboravljena_lozinka": "Zaboravili ste lozinku? |",
+        "registracija": "Registriraj se",
+        "botun": "Prijava"
+    },
+
+    "mybooks_content":{
+        "clanstvo": "Dodaj članstvo",
+        "odjava": "Odjava",
+        "labela_posuđeno": "Posuđeno u: ",
+        "labela_datum": "Datum isteka roka: ",
+        "podsjeti": "Podsjeti me",
+        "produži": "Produži rok",
+        "ocijeni": "Ocijeni: ",
+
+        "knjige": [
+            {
+                "naslov": "Božićna želja - Lisa Kleypas",
+                "lokacija": "gradska knjižnica Kaštel Lukšć, 10.12.2017.",
+                "datum": {"dan":"23", "mjesec":"12", "godina":"2017"},
+                "slika": "zelja.jpg"  
+
+            },
+    
+            {
+                "naslov": "Romeo i Julija - William Shakespeare",
+                "lokacija": "gradska knjižnica Kaštel Lukšć, 10.12.2017.",
+                "datum": {"dan":"31", "mjesec":"12", "godina":"2017"},
+                "slika":"romeo.jpg"    
+            },
+    
+            {
+                "naslov": "Zločin i kazna - Fjodor Mihajlovič Dostojevski",
+                "lokacija": "gradska knjižnica Trogir, 1.12.2017.",
+                "datum": {"dan":"21", "mjesec":"12", "godina":"2017"},
+                "slika":"zlocin_i_kazna.jpg"
+
+            }
+        ]
+       
+
+       
+    },
+
+
+    "visual_content":[
+        {"pic": "loc.png", "text": "Pregled knjižnica na području Splita, Solina, Kaštela i Trogira"},
+        {"pic": "sr.png", "text": "Pretraživanje knjiga po naslovu, žanru, autoru i knjižnicama"},
+        {"pic": "b.png","text": "Provjera dostupnosti tražene knjige u prodaji ili u knjižnici"},
+        {"pic": "lock.png","text":"Registracija i uvid u vlastito stanje posuđenih knjiga"}
+    ]
+    
+
+
+}

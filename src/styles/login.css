@@ -1,0 +1,108 @@
+/*mobile phone design*/
+
+.book_icon{
+    display: flex;
+    justify-content: center;
+    font-size: 1.8em;
+    margin-top:  3.3em;
+    margin-bottom: 0.7em;
+}
+.book_icon img{
+    width: 9em;
+    height: 9em;
+}
+.text_nd_password{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+input{
+    height: 3.4em;
+    color: gray;
+    border: solid;
+    margin: 0.3em 2em 0 2em;
+    font-size: 1.6em;
+    padding-left: 1em;
+    padding-right: 1em;
+    outline: none;
+    border-width: thin;
+}
+.text_nd_password button{
+   
+    background-color: #9A8C88;
+    color: white;
+    padding: 0 2em;
+    text-align: center;
+    text-decoration: none;
+    font-size: 3em;
+    margin: 0.3em 1.07em 0.3em 1.07em;
+    height: 2.4em;
+    border: none;
+    box-shadow: 0px 5px 15px grey;
+}
+.text_nd_password button:hover{
+    cursor: pointer;
+    background-color: #bfb1b1;
+    
+}
+.description{
+    margin: 0 4em 3em 4em;
+    display: flex;
+    justify-content: center;
+    font-size: 1.9em;
+    color: gray;
+}
+.additional_links{
+    display: flex;
+    justify-content: center;
+    color: grey;
+    font-size: 1.9em;
+    margin-bottom: 6.2em;
+}
+.additional_links p:hover{
+    cursor: pointer;
+    font-size: 1.2em;
+    transition: all .5s;
+}
+.additional_links p{
+    padding: 0.3em;
+}
+.error{
+    text-align: center;
+    font-size: 1.6em;
+    color: red;
+}
+
+/*desktop design*/
+
+@media only screen and (min-device-width: 768px) {
+    .text_nd_password button{
+        font-size: 1.8em;
+     
+    }
+    .error{
+        font-size: 1.2em;
+    }
+    input{
+        height: 2em;
+        width: 17em;
+        margin: 0 auto 0 auto;
+        font-size: 1.2em;
+    }
+    .text_nd_password button{
+        height: 2em;
+        width: 12.8em;
+        margin: 0.3em auto 0.3em auto;
+    }
+    .additional_links{
+        font-size: 1.5em;
+    }
+    .description{
+        margin: 0 4em 2em 4em;
+        font-size: 1.5em;
+    }
+    .book_icon img{
+        width: 5em;
+        height: 5em;
+    }
+}

@@ -1,0 +1,167 @@
+/*mobile phone design*/
+.wrapper{
+    width: 55em;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.visual_info{
+    background-color: white;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-bottom: 3em;
+}
+
+.element_img{
+    height: 7em;
+    width: 7em;
+    background-color: white;
+    margin: 2em 0em 0 4.5em;
+    background-size: 100% 100%;
+    ;
+    background-repeat: no-repeat;
+}
+
+.element p{
+    width: 14.6em;
+    text-align: center;
+    line-height: 1.8em;
+    font-size: 18px;
+}
+
+.title_container{
+    height: 35.875em;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    background-image: url('../images/booksndflowers2.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+   
+    
+} 
+h1{
+    font-size: 3.5em;
+    color: #DFDFDF;
+    font-family: Palatino Linotype;
+    font-weight: 400;
+}
+.title_wrapper{
+    background-color: #ffffff2b;
+    margin-top: 10em;
+    margin-bottom: 12em;
+    width: 100%;
+    text-align: center;
+    padding-top: 1.5em;
+
+}
+.about{
+    background-color: white;
+    padding-top: 2em;
+    text-align: center;
+}
+
+h2{
+    margin-left: 1.6em;
+    color: #532b2b;
+    font-size: 2em;
+    margin-top: 0.5em;
+
+}
+ul{
+    text-align: center;
+    color: #532b2b;
+    font-size: 1.2em;
+    list-style-type: none;
+    margin-bottom: 2em;
+}
+
+
+
+.GKMM div, .GKS div, .GKK div{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.GKMM, .GKK, .GKS, .GKT{
+    padding: 1em;
+    color: #532b2b;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  
+    
+}
+
+.GKMM p, .GKS p, .GKK p, .GKT p{
+    font-size: 1.2em;
+    margin-top: 0;
+    max-width: 40em;
+    margin: 0 auto 0 0.5em;
+    text-align: justify;
+    line-height: 1.9;
+    padding: 0.5em;
+}
+.GKMM img, .GKS img, .GKK img, .GKT img {
+    height: 20em;
+    width: 53em;
+    margin: 1.5em auto 0 auto;
+    margin-bottom: 2em;
+}
+
+.GKMM li, .GKS li, .GKK li, .GKT li{
+    margin: 0.5em;
+}
+
+h3{
+    font-size: 2.7em;
+    color: #532b2b;
+    display: flex;
+    font-variant: petite-caps;
+    margin-top: 2em;
+    margin-bottom: 0em;
+    margin-left: 0.5em;
+    
+}
+
+
+
+.GKMM{
+    background-color:#eee;
+}
+
+
+.GKK{
+    background-color:#eee;
+}
+
+
+
+/*desktop design*/
+
+@media only screen and (min-device-width: 768px) {
+  
+    .GKMM img, .GKS img, .GKK img, .GKT img {
+        height: 18em;
+        width: 49em;
+        
+      
+    }
+   
+    h3{
+        margin-left: 1.7em;
+        font-size: 2em;
+        margin-top: 2em;
+        margin-bottom: 0.3em;
+    }
+    h1{
+        font-weight: 100;
+    }
+    .GKMM p, .GKS p, .GKK p, .GKT p{
+        margin: 0 auto 0 2.3em;
+    }
+}

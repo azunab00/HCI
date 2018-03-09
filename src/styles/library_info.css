@@ -1,0 +1,245 @@
+/*mobile phone design*/
+
+.map-responsive{
+    overflow: hidden;
+    padding-bottom: 56.25%;
+    position: relative;
+    height: 30em;
+    width: 50em;
+}
+.map-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+ .knjiznice{
+     display: flex;
+     flex-direction: column;
+     margin: 0;
+ }
+.library_button{
+    margin-top: 0.5em;
+    margin-bottom: 1.2em;
+    width: 100%;
+    height: 11em;
+    background-color: #fbfbfb;
+    display: -ms-flexbox;
+    border: solid;
+    border-color: #908d9d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-shadow: 0px 10px 10px #888888;
+}
+
+.library_info_container{
+    display: none;
+}
+.library_info_container{
+   
+    padding: 3em;
+    flex-direction: row;
+    flex-direction: column;
+}
+.library_image{
+    background-color: aqua;
+    height: 25em;
+    width: 25em;
+    padding: 0.5em;
+}
+.map-responsive{
+    padding: 0.5em;
+    
+    height: 40em;
+}
+.library_info_container p{
+    text-align: justify;
+    font-size: 2em;
+    
+}
+.library_info h3 {
+    justify-content: left;
+}
+.library_name{
+    font-size: 3em;
+    font-weight: 800;
+    color: #908d9d;
+    margin-left: 1.2em;
+}
+.fa-caret-down, .fa-caret-up{
+    margin-top: 0.8em;
+    margin-right: 0.8em;
+    color: #908d9d;
+}
+.general_library_info{
+    color: #532b2b;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+    background-image: url('../images/open_book2.jpg');
+    background-size: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+}
+.container{
+    color: #fbfbfb;
+    background-image: url(/static/media/open_book2.360ca996.jpg);
+}
+.container > hr{
+    border-color: white;
+}
+.general_library_info ul{
+    background: #ffffffcf;
+    padding: 2em;
+    text-align: center;
+    line-height: 1.9em;
+    max-width: 30em;
+    margin: 1.5em auto 5em auto;
+    
+}
+tbody{
+    background: #ffffffbd;
+    font-size: 2.8em;
+    margin: 2em;
+ 
+}
+table{
+    margin: 0 auto 0 auto;
+    border-collapse: collapse;
+    margin: 0 auto 0 auto;
+    margin-bottom: 5em;
+}
+
+.general_library_info p{
+    color: #532b2b;
+    font-size: 2em;
+    background: #ffffffcf;
+    padding: 2em;
+    text-align: justify;
+    line-height: 1.8em;
+    max-width: 30em;
+    margin: 2em auto;
+}
+.general_library_info ul{
+    font-size: 2em;
+}
+.general_library_info li{
+    margin-bottom: 1em;
+}
+.general_library_info > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.general_library_info > div > div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+table, td, th {    
+    border: 1px solid #834343;
+    text-align: left;
+}
+
+
+th{
+    background-color: #9B786F;
+    color: white;
+    border-color: white;
+}
+th, td {
+    padding: 15px;
+}
+
+/*desktop design*/
+@media only screen and (min-device-width: 768px) {
+    .library_image{
+        height: 15em;
+        width: 15em;
+    }
+    .general_library_info ul{
+        font-size: 1.2em;
+    }
+   
+    .general_library_info li{
+        margin-bottom: 0.3em;
+    }
+
+    .library_info_container p{
+        font-size: 1.1em;
+        text-align: left;
+        width: 20em;
+    }
+    .library_button{
+        display: none;
+    }
+
+    table{
+        width: 41em;
+    }
+
+    .general_library_info ul{
+        margin: 1.5em auto;
+        
+    }
+    .library_info_container{
+        display: flex;
+        padding: 3em;
+        width: 57em;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 1em auto;
+        border: solid;
+        border-color: gray;
+        border-width: 1px;
+        box-shadow: 0px 5px 20px grey;
+    }
+    .library_info_container div{
+        margin: 0;
+    }
+    .library_info{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-evenly;
+        margin-bottom: 1em;
+    }
+    .library_info h3{
+        justify-content: left;
+        margin-left: 0;
+    }
+    .library_info div{
+        display: flex;
+        flex-direction: column;
+    }
+    .library_title{
+        font-size: 2em;
+    }
+    .library_description{
+        font-size: 1.2em;
+        margin-right: 1em;
+        text-align: justify;
+    }
+    
+    .library_location{
+        background-color: aqua;
+        height: 15em;
+    }
+    .general_library_info p{
+        font-size: 1.2em;
+    }
+    tbody{
+        background: #ffffffbd;
+        font-size: 1.2em;
+        margin: 0;
+    }
+    .map-responsive{
+        width: 30em;
+        height: 31.3em;
+        margin: 0.7em 0 0 0;
+
+    }
+}

@@ -1,0 +1,145 @@
+/*mobile phone design*/
+
+.options{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 2em;
+    padding: 0 1.7em 0 1.5em;
+    color: grey;
+    font-size: 2.1em;
+    box-shadow: 0px 5px 5px lightgrey;
+}
+.options p{
+    border: none;
+    /* padding: 1.2em; 
+    margin: 1em; */
+    
+    /* background: #9a8c88; */
+    color: gray;
+    /* box-shadow: 5px 5px 15px grey; */
+   
+}
+
+.borrowed_book_container {
+    max-width: 50em;
+    margin: 5.6em auto 1.8em auto;
+    flex-direction: column;
+    border: solid;
+    border-color: gray;
+    border-width: 1px;
+    padding-top: 3em;
+    box-shadow: 0px 5px 20px grey;
+}
+
+.borrowed_book_image{
+    height: 35em;
+    width: 21.5em;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    margin: 0 0 1em 3.2em;
+}
+.borrowed_book_info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.2em 3em 1.2em 3em;
+}
+.borrowed_book_container button{
+    background-color: #9A8C88;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    font-size: 2em;
+    height: 3em;
+    width: 12.3em;
+    margin: 1em 1em 1em 0;
+    border: none;
+    box-shadow: 5px 5px 15px grey;
+}
+.borrowed_book_container button:hover{
+    cursor: pointer;
+    background-color: #bfb1b1;
+}
+.borrowed_book_container p{
+    font-size: 2em;
+    color: black;
+    margin: 0.2em;
+    
+}
+.filling_star_container{
+    font-size: 6.7em;
+    display: flex;
+    margin-top: 0.5em;
+}
+
+
+
+/*desktop design*/
+
+@media only screen and (min-device-width: 768px) {
+    .borrowed_book_info{
+        height: 27em;
+    }
+
+    .borrowed_books{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .borrowed_book_image{
+        height: 25em;
+        width: 18.5em;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+    }
+
+    .filling_star_container{
+        font-size: 3.7em;
+    }
+    .options{
+        font-size: 1.2em;
+        -ms-flex-pack: end;
+        justify-content: flex-end;
+        padding: 0;
+        box-shadow: 0px 5px 5px lightgrey;
+        margin: 0;
+     
+    }
+    .options p{
+        margin: 0;
+        padding: 1.2em; 
+    
+    }
+   
+    .options p:hover{
+        cursor: pointer;
+        background-color: #DADADA;
+    }
+    .borrowed_book_container{
+        margin-top: 2em;
+        display: flex;
+        max-width: 30em;
+        flex-direction: column;
+        justify-content: space-evenly;
+        border: solid;
+        border-color: gray;
+        border-width: 1px;
+        padding-top: 2em;
+        margin: 1em;
+        max-width: 25em;
+    }
+
+    .borrowed_books:after{
+        flex: 0 1 27em;
+        content: '';
+    }
+    .borrowed_book_container p{
+        font-size: 1.2em;
+    }
+    .borrowed_book_container button{
+        font-size: 1.1em;
+        height: 3em;
+        width: 7em;
+    }
+}
