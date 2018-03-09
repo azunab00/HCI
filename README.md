@@ -8,4 +8,4 @@ This is just a frontend part, with some functionalities implemented.
 
 Here are some screennshots:
 
-https://github.com/azunab00/HCI/blob/master/screenshots/homepage.PNG
+![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/homepage.PNG)
