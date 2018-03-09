@@ -6,6 +6,14 @@ This application lets user view all borrowed books, when and where they need to 
 
 This is just a frontend part, with some functionalities implemented.
 
-Here are some screennshots:
+Here are some screenshots:
 
 ![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/homepage.PNG)
+![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/news.PNG)
+![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/news_mobile.PNG)
+![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/location.PNG)
+![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/location_mobile.PNG)
+![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/search.PNG)
+![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/login.PNG)
+![alt text](https://github.com/azunab00/HCI/blob/master/screenshots/borrowed.PNG)
+
