@@ -6,7 +6,7 @@ The information include main library description, library location, address, pho
 The user can also search books, check their availability and view all important information about it.
 This application lets user view all borrowed books, when and where they need to be returned.
 
-This is just a frontend part, with some functionalities implemented.
+This is just a frontend part, with some functionalities implemented. The whole process of creating this project was described in the documentation "Moje knjižnice.pdf".
 
 Here are some screenshots:
 
